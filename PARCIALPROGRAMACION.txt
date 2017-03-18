@@ -2,26 +2,33 @@ using System;
 
 namespace taller11
 {
-	class Program
+class Program
 public static void Main(string[] args)
 		{
 			
 			Console.WriteLine("Ingrese el puntaje obtenido: ");
 			Double puntos = Convert.ToDouble(Console.ReadLine());
-if (puntos<1){
+
+if (puntos<1)
+{
 				puntos=puntos*0;
-			}else if (puntos >0 && puntos <=5){
+			}
+else if (puntos >0 && puntos <=5)
+{
 				puntos = puntos *6;
-}else if (puntos >5 && puntos<=8){
-				puntos=puntos *9;
-}else if (puntos >8 && puntos<=10){
-				puntos=puntos *10;
 }
-			Console.WriteLine("su puntaje final ganado es: " + puntos);
+else if (puntos >5 && puntos<=8)
+{
+				
+puntos=puntos *9;
+}else if (puntos >8 && puntos<=10){
+puntos=puntos *10;
+
+}
+Console.WriteLine("su puntaje final ganado es: " + puntos);
 			// TODO: Implement Functionality Here
 Console.Write("Press any key to continue . . . ");
-
-			Console.ReadKey(true)
+Console.ReadKey(true)
 		}
 	}
 }
