@@ -19,3 +19,5 @@ if (puntos<1){
 }
 			Console.WriteLine("su puntaje final ganado es: " + puntos);
 			// TODO: Implement Functionality Here
+Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true)
