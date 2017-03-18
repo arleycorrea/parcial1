@@ -16,3 +16,6 @@ if (puntos<1){
 				puntos=puntos *9;
 }else if (puntos >8 && puntos<=10){
 				puntos=puntos *10;
+}
+			Console.WriteLine("su puntaje final ganado es: " + puntos);
+			// TODO: Implement Functionality Here
