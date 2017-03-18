@@ -14,3 +14,5 @@ if (puntos<1){
 				puntos = puntos *6;
 }else if (puntos >5 && puntos<=8){
 				puntos=puntos *9;
+}else if (puntos >8 && puntos<=10){
+				puntos=puntos *10;
