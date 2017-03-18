@@ -3,3 +3,8 @@ using System;
 namespace taller11
 {
 	class Program
+public static void Main(string[] args)
+		{
+			
+			Console.WriteLine("Ingrese el puntaje obtenido: ");
+			Double puntos = Convert.ToDouble(Console.ReadLine());
