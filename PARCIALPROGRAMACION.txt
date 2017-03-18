@@ -1,0 +1,6 @@
+/*Pedir dos numeros y hacer las cuatro operaciones entre ellas
+*/
+do
+{
+	var num1=parseInt(prompt("Ingresa el primer numero"));
+	if (isNaN(num1)==true)
